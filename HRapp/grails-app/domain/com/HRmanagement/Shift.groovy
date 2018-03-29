@@ -3,7 +3,7 @@ package com.HRmanagement
 class Shift {
 String timeOfDay
 String dayOfWeek
-Int numberOfHours
+int numberOfHours
 String startingTime
 
     static constraints = {

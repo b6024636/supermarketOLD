@@ -2,7 +2,7 @@ package com.HRmanagement
 
 class Team {
 String teamName
-Int numberOfEmployees
+int numberOfEmployees
 String sectionName
 String description
 

@@ -2,5 +2,5 @@ package com.HRmanagement
 
 class ShiftController {
 
-    def scaffold = shift
+    def scaffold = Shift
 }

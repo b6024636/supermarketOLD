@@ -2,10 +2,10 @@ package com.HRmanagement
 
 class Task {
 String taskName
-Int numberOfPeople
+int numberOfPeople
 String sectionName
 String department
-Int timeRequired
+int timeRequired
 String description
 Boolean taskCompleted
 
