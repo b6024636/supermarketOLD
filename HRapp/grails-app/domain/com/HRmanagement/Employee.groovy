@@ -18,7 +18,7 @@ String contract
 	hourlyRate blank:false, nullable:false
 	employeeID blank:false, nullable:false, unique:true
 	dateEmployed blank:false, nullable:false
-	taxCode blank:false, nullable:false, max:5
+	taxCode blank:false, nullable:false, size:5
 	contract blank:false, nullable:false
     }
 }
