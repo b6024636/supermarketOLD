@@ -9,7 +9,9 @@ String employeeID
 Date dateEmployed
 String taxCode
 String contract
-
+Manager manager
+TeamLeader teamLeader
+Shift shift
 
     static constraints = {
 	fullName blank:false, nullable:false

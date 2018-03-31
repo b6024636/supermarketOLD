@@ -74,7 +74,7 @@ class BootStrap {
 		numberOfEmployees: 10,
 		sectionName: 'Gardining',
 		description: 'Maintaining gardens'
-		).save(failOnError:true)
+		).save()
 	
 	def tmLoading = new com.HRmanagement.Team(
 		teamName:'Loading',
@@ -92,7 +92,7 @@ class BootStrap {
 		timeRequired: '1 Hour',
 		description: 'Replenishing flowers',
 		taskCompleted: false
-		).save(failOnError:true)
+		).save()
 
 	def taskClean = new com.HRmanagement.Task(
 		taskName: 'Cleaning',

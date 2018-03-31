@@ -9,6 +9,11 @@ Long officePhone
 String leaderEmail
 String password
 
+String toString()
+{
+	return "$fullName" - "$employeeID"
+}
+
     static constraints = {
 	fullName blank:false, nullable:false
 	department blank:false, nullable:false
